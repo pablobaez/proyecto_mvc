@@ -1,0 +1,68 @@
+*{  padding:0;  margin:0;}
+
+body{ background:#fff;}
+ul{list-style:none;}
+
+/*header*/
+header{  width:100%;  overflow:hidden;  background:#fff;  margin-bottom:40px;}
+.logo{  float: left; height:auto; margin-right: 100px; width: auto; }
+.logo li  { float: left; padding-left: 30px; width: auto; }
+.titulo{font-weight: bold; padding-left: 20px; font-size: 60px; text-align:center;}
+.navbar-nav li{ border-right: 2px solid  #fff;}
+.navbar-nav a{display:inline-block; color: #fff; text-decoration: none;  padding: 10px;  line-height: normal; font-size: 20px;   font-weight: bold;   -webkit-transition:all 500ms ease;   -o-transition:all 500ms ease;   transition: all 500ms ease;}
+.navbar-nav a:hover{color:#000;  background: #fff;}
+/*header*/
+
+/*section*/
+carousel-inner{border-right: 0px;}
+
+/*los widgets*/
+
+.info-home { background-color: #f0f0f0;  height: 540px; width: 100%;}
+.info-home ul    { float: left; padding: 0px 10px 10px 10px; width: 100%;}
+.info-home ul li { border-bottom: solid 1px #CDCDCD; float: left; padding: 10px 0; width: 100%; }
+.info-home ul li:last-child { border-bottom: none; }
+.info-home ul li:first-child { padding-top: 0; }
+.info-home ul li:last-child  { border-bottom: none; padding-bottom: 0; }
+.info-home ul li h4 { margin-bottom: 5px; }
+.info-home h3 {background-color: #F60;	float: left;	margin-bottom: 30px;	padding: 20px 30px;	width: 100%; font-size: 20px; text-align: center;}
+.info-home  ul li a{text-decoration: none;}
+.info-home ul li a:hover{color:#F60;}
+
+
+
+/*los widgets*/
+
+/*aside*/
+
+ul.aside  { float: right; width: 100%; list-style:none; background-color: #555;}
+.aside li { border-bottom: solid 1px #777; float: left; width: 100%; text-decoration: none;}
+.aside li:last-child { border-bottom: none; }
+.aside li a {display: block;color:#777; float: left;	font-size: 20px;	padding: 10px 10px;	width: 100%; text-decoration: none;}
+.aside li a:hover { color:#fff;}
+.aside h3 {background-color:#555; color:#fff;	float:left; padding: 8px 10px; width:100%; font-size: 20px; text-align: center; margin-bottom: 0px;}
+/*aside*/
+
+/*historia-mision-vision*/
+.historia{text-align: justify; font-size: 20px;}
+.historia-col h1{ font-size: 30px; font-weight: bold;}
+/*historia-mision-vision*/
+
+/*formularios*/
+form  {max-width: 400px; margin: 10px auto; padding: 10px 20px; background: #d0dafd; border-radius: 8px; }
+label {font-size: 15px; display: block; width: 100%;}
+input{ margin-bottom: 10px; width: 100%; padding: 10px; box-sizing: border-box; border: 1px solid #ccc;}
+input[type="submit"]:hover{ background: #f56f3a;  cursor: pointer;}
+input[type="radio"]{  width: 30px;  margin: 0 4px 8px 0px;}
+input.Ponderadores{ padding: 5px; margin-bottom: 0px; height:25px; width:40px;}
+/*formularios*/
+
+/*tablas*/
+table.ingnotas{font-size: 12px;    margin: 45px;   width: 480px; text-align: left; border-collapse: collapse; margin: auto;}
+th {font-size: 13px; font-weight:normal; padding: 8px; background: #b9c9fe; border-top: 0px solid #aabcfe;  border-bottom: 0px solid #fff; color: #f56f3a; }
+td {padding: 8px; background: #e8edff; border-bottom: 0px solid #fff; color: #669;  border-top: 1px solid transparent; }
+tr:hover td { background: #d0dafd; color: #339; }
+/*tablas*/
+
+
+footer {background:#FFFFFF;	padding:20px;	color:#CDCDCD;	margin:20px 0;	border-radius:5px;  text-align:center;}
